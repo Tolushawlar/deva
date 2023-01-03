@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import Home from "./components/Home/Home";
 import Dashboard from "./components/Dashboard/Dashboard";
 import './base.css';
@@ -7,7 +6,6 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Navigate,
 } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
