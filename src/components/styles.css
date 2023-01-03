@@ -1,0 +1,25 @@
+.navlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  padding: 40px;
+}
+
+.navlist .navRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.navlist .navRight .navRightItem{
+    cursor: pointer;
+}
+
+.registerBtn{
+    background-color: red;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+}
