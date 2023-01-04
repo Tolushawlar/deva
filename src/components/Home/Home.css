@@ -1,25 +1,83 @@
-*{
-    overflow-x: hidden;
+* {
+  overflow-x: hidden;
 }
 
-.hero{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    padding: 10px;
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
 }
 
-.hero .heroLeft{
-    background-size: cover;
-    height: 350px;
-    width: 600px;
-    background-image: url('../../Assets/Asset21@4x.png');
+.hero .heroContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.hero .heroRight{
-    color: red;
-    background-size: cover;
-    height: 450px;
-    width: 800px;
-    background-image: url('../../Assets/Asset10@4x.png');
-}   
+
+.hero .heroLeft {
+  background-size: cover;
+  height: 350px;
+  width: 600px;
+  position: fixed;
+  bottom: 10px;
+  color: white;
+  background-image: url("../../Assets/Asset21@4x.png");
+}
+.hero .heroRight {
+  color: red;
+  background-size: cover;
+  height: 450px;
+  width: 800px;
+  position: fixed;
+  bottom: 10px;
+  left: 45%;
+  background-image: url("../../Assets/Asset10@4x.png");
+}
+
+.heroLeft .heroText {
+  position: fixed;
+  top: 160px;
+  line-height: 60px;
+  left: 120px;
+  font-size: large;
+}
+
+.heroLeft .heroText h3 {
+  line-height: 30px !important;
+}
+
+.heroLeft .heroText h1 {
+  font-weight: bolder;
+}
+
+.heroLeft .heroText #voteTxt {
+  color: red;
+}
+
+.heroLeft .heroBtn {
+  position: fixed;
+  top: 500px;
+  left: 120px;
+}
+
+.heroLeft .heroBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 15%;
+}
+
+.heroLeft .heroBtn #regBtn {
+  background-color: red;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.heroLeft .heroBtn #logBtn {
+  background-color: red;
+  padding: 10px;
+  border-radius: 7px;
+}
