@@ -7,7 +7,7 @@ export default function Navbar() {
     <div className="Navbar">
       <div className="navlist">
         <div className="navLeft">
-          <img src={Logo} style={{width:100}} />
+          <img src={Logo} style={{width:100}} alt="logo" />
         </div>
         <div className="navRight">
           <div className="navRightItem">How to Vote</div>
