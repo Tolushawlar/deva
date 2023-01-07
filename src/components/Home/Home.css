@@ -21,7 +21,7 @@
   height: 350px;
   width: 600px;
   position: fixed;
-  bottom: 10px;
+  bottom: 3px;
   color: white;
   background-image: url("../../Assets/Asset21@4x.png");
 }
@@ -31,7 +31,7 @@
   height: 450px;
   width: 800px;
   position: fixed;
-  bottom: 10px;
+  bottom: 10px; 
   left: 45%;
   background-image: url("../../Assets/Asset10@4x.png");
 }
