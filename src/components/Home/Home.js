@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import "./Home.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faVoteYea, faBell,faArrowRight } from "@fortawesome/free-solid-svg-icons";
+
+
 
 export default class Home extends Component {
   render() {
@@ -8,7 +12,7 @@ export default class Home extends Component {
         <div className="heroLeft">
           <div className="heroText">
             <h4>Be a Part of Decision</h4>
-            <h1>
+            <h1 style={{ overflow: "hidden" }}>
               Vote <span id="voteTxt">Today.</span>
             </h1>
             <h3>
@@ -16,9 +20,11 @@ export default class Home extends Component {
               system
             </h3>
           </div>
+
           <div className="heroBtn">
-            <div id="regBtn">Register</div>
-            <div id="logBtn">Login</div>
+            <h4><FontAwesomeIcon icon={faArrowRight} /> Do you like to be a part of the outcome</h4>
+            <br />
+            <div id="regBtn">Connect Wallet</div>
           </div>
         </div>
         <div className="heroRight"></div>

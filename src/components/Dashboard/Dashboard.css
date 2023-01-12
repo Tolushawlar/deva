@@ -53,12 +53,14 @@
 
 .dashLeft .dashLeftform form {
   display: flex;
-  z-index: 999;
+  z-index: 9999;
   flex-direction: column;
   justify-content: space-between;
   align-content: center;
   overflow: hidden !important;
   align-items: center;
+  color: white !important;
+  font-weight: bolder;
 }
 
 .dashLeft .dashLeftform form input {
@@ -66,12 +68,23 @@
   margin: 15px;
   color: white;
   font-weight: bolder;
+  border-radius: 10px;
+  height: 24px;
+  text-align: center;
+  opacity: 0.7;
 }
 
 .dashLeft .dashLeftform form #userId {
   border-radius: 10px;
   height: 24px;
-  background-color: grey;
+}
+
+.dashRightContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
 }
 
 .dashRight {
@@ -79,7 +92,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 40%;
+  width: 80%;
   background-color: grey;
   opacity: 0.5;
   color: white;
@@ -88,6 +101,8 @@
   padding: 10px;
   overflow: hidden;
   height: 30px;
+  margin-bottom: 10px;
+  z-index: 999;
 }
 
 .dashRight .electionIc {
@@ -106,12 +121,102 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  margin-right: 10px;
-  width: 70px !important;
+  margin-right: 20px;
+  width: 90px !important;
   border-radius: 6px !important;
 }
 
 .dashRight .ringIc {
   position: fixed;
   right: 230px;
+}
+
+.dashRightDown {
+  height: 200px;
+  width: 80%;
+  background-color: grey;
+  opacity: 0.5;
+  color: white;
+  font-weight: bolder;
+  border-radius: 20px;
+  padding: 10px;
+  overflow: hidden;
+  z-index: 999;
+
+  align-items: center;
+}
+
+.dashRightDown .canditateSec {
+  background-color: white;
+  width: 400px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.dashRightDown .canditateSec .menu-item {
+  margin-top: -50px;
+}
+
+.dashRightContent .dashRight .electionIcs {
+  padding: 40px 0px;
+}
+.dashRightContent .dashRight .electionIcs #electionSum {
+  background-color: red;
+  color: white;
+  width: 200px;
+  padding: 20px;
+  height: 1px !important;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 8px !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashRightContent .dashRightDownS {
+  margin-top: -9px;
+  height: auto  ;
+  width: 80%;
+  background-color: grey;
+  opacity: 0.5;
+  color: white;
+  font-weight: bolder;
+  border-radius: 20px;
+  padding: 10px;
+  overflow: hidden;
+  z-index: 999;
+
+  align-items: center;
+}
+
+.dashRightContent .dashRightDownS .dashLeaders {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.dashRightContent .dashRightDownS .dashLeaders h2 {
+  background-color: red;
+  color: white;
+  width: 150px;
+  padding: 20px;
+  height: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.dashRightContent .dashRightDownS .dashLeaders .leaders{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }

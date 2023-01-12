@@ -32,20 +32,24 @@
   width: 800px;
   position: fixed;
   bottom: 10px; 
+  overflow: hidden !important;
   left: 45%;
-  background-image: url("../../Assets/Asset10@4x.png");
+  background-image: url("../../Assets/screens/CompiledComponents.svg");
 }
 
 .heroLeft .heroText {
   position: fixed;
-  top: 160px;
-  line-height: 60px;
+  top: 140px;
+  line-height: 70px;
   left: 120px;
-  font-size: large;
+  overflow: hidden !important;
+  font-size: 28px;
 }
 
 .heroLeft .heroText h3 {
   line-height: 30px !important;
+  font-weight: 200;
+  height: 230px !important;
 }
 
 .heroLeft .heroText h1 {
@@ -64,20 +68,29 @@
 
 .heroLeft .heroBtn {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  line-height: 8px;
   cursor: pointer;
-  width: 15%;
 }
 
+.heroLeft .heroBtn #regBtn {
+  width: 50%;
+  background-color: red;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.heroLeft .heroBtn  h4{
+  height: 20px;
+  font-weight: 200;
+}
 .heroLeft .heroBtn #regBtn {
   background-color: red;
   padding: 10px;
   border-radius: 7px;
-}
-
-.heroLeft .heroBtn #logBtn {
-  background-color: red;
-  padding: 10px;
-  border-radius: 7px;
+  margin-top: -20px;
+  height: 15px;
+  text-align: center;
 }

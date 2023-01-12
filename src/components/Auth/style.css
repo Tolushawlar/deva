@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentLeft {
+  background-size: cover;
+  height: 350px;
+  width: 600px;
+  position: fixed;
+  bottom: 3px;
+  left: 0px;
+  color: white;
+  background-image: url("../../Assets/Asset21@4x.png");
+}
+
+.AuthForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  color: white;
+  margin-top: -30px;
+}
+
+.AuthForm img {
+  background-color: grey;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+.AuthForm form {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+  text-align: center ;
+}
+
+.AuthForm form input{
+    width: 300px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.AuthForm form .sub{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    width: 200px;
+}

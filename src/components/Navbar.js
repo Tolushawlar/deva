@@ -1,6 +1,6 @@
 import React from "react";
 import './styles.css';
-import Logo from '.././Assets/Asset8@4x.png';
+import Logo from '.././Assets/screens/Logo.svg';
 
 export default function Navbar() {
   return (
@@ -12,8 +12,7 @@ export default function Navbar() {
         <div className="navRight">
           <div className="navRightItem">How to Vote</div>
           <div className="navRightItem">Contact</div>
-          <div className="navRightItem">Login</div>
-          <div className="navRightItem registerBtn">Register</div>
+          <div className="navRightItem registerBtn">Connect Wallet</div>
         </div>
       </div>
     </div>

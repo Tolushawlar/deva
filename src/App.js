@@ -8,8 +8,11 @@ import {
   Routes,
 } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import DashboardSum from "./components/Dashboard/DashboardSum";
+import Login from './components/Auth/Login'
+import Register from './components/Auth/Register'
 
-function App() {
+function App() { 
   return (
     <Router>
       <div className="App">
@@ -17,6 +20,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/dashboardSummary" element={<DashboardSum/>} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/register" element={<Register/>} />
         </Routes>
       </div>
     </Router>

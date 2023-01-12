@@ -1,0 +1,35 @@
+import React from "react";
+import HeaderImg from "../../Assets/Asset26.svg";
+import "./style.css";
+
+export default function Register() {
+  return (
+    <div className="container">
+      <div className="contentLeft"></div>
+      <div className="AuthForm">
+        <h2 className="header">Registration Form</h2>
+        <img src={HeaderImg} alt="headerImg" style={{ width: 200 }} />
+        <form>
+          <label>
+            Name
+            <br />
+            <input type="text" name="name" />
+          </label>
+          <label>
+            Public Address
+            <br />
+            <input type="text" name="public address" />
+          </label>
+          <label>
+            Password
+            <br />
+            <input type="password" name="password" />
+          </label>
+          <br />
+          <input className="sub" type="submit" value="Register" />
+        </form>
+      </div>
+      <div className="contentRight"></div>
+    </div>
+  );
+}
