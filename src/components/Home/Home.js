@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faVoteYea, faBell,faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 
 
